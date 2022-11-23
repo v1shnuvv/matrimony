@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+.reg_container{
+    display: flex;
+    flex-direction: column;
+}
+.reg_header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.155);
+}
+.reg_header img{
+    padding: 10px;
+}
+.reg_header_element_one{
+    font-size: 20px;
+}
+.reg_header_element_two{
+    font-size: 15px;
+}
+.reg_logo_element{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.reg_outer_body{
+    background-color: rgba(0, 0, 6, 0.188);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reg_body_outer_header{
+    font-size: 25px;
+    text-align: right;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.reg_body{
+    background-color: rgba(0, 0, 0, 0.179);
+    width: 90%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reg_middle_element{
+    display: flex;
+}
+.reg_section_one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reg_section_one img{
+    width: 50px;
+    padding-bottom: 10px;    
+}
+.reg_section_two{
+    width: 50%;
+    background-color: white;
+    font-size: 15px;
+}
+.reg_sec_two_header{
+    
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+span{
+    font-size: 35px;
+}
+.upper{
+    font-size: 20px;
+}
+.reg_label_input{
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.reg_section_two label{
+    width: 40%;    
+}
+.reg_section_two input{
+    width: 55%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-right: 10px;
+    outline: none;
+}
+.reg_btn_ctr{
+    display: flex;
+    padding-left: 10px; 
+    justify-content: right;   
+}
+.reg_btn_ctr button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.reg_footer{
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 6, 0.188);
+    padding-bottom: 10px;
+}

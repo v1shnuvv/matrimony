@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+.page_sec_top{
+    background: url(C:\Users\HP\Desktop\Project\Matrimony\frontend\src\page_bg.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-size: cover;
+    
+    
+}
+.page_nav_bar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 40px;    
+}
+.page_nav_bar ul{
+    display: flex;
+    list-style-type: none;
+    /* background-color: aquamarine; */
+    
+}
+.page_nav_bar ul li{
+    padding-right: 10px;
+}
+
+.page_nav_bar img{
+    width: 30px;
+    padding: 10px;
+
+}
+.page_search_bar{
+    display: flex;
+    width: 80%;
+    background-color: bisque;
+    
+}
+.page_input{
+    width: 80%;
+}
+.page_input input{
+    width: 100%;
+}
+.page_button {
+    width: 20%;
+}
+.page_button button{
+    width: 100%;
+}
+.page_sec_bottom{
+    background-color: rgba(0, 0, 0, 0.123);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page_content_list{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.page_row{
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.page_row img{
+    width: 30%;
+}
+.page_row_left_coln{
+    /* width: 30%;    */
+}
+.page_row_left_coln img{
+    width: 200px;
+}
+.page_row_right_coln{
+    /* width: 70%; */
+    padding-left: 10px;
+    
+}
+.page_row_right_header{
+    font-size: 30px;
+}
+.page_row_right_label{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.page_row_right_label label{
+    width: 48%;
+}
